@@ -1,12 +1,16 @@
-import React from 'react';
+
 import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { MaterialIcons } from '@expo/vector-icons';
 import { NOTIFICATIONS } from '../data/dummy-data';
 
 const Notifications = () => {
   const renderNotificationItem = ({ item }) => (
     <View style={styles.notificationItem}>
-      <Text style={styles.notificationTitle}>{item.title}</Text>
-      <Text style={styles.notificationDate}>{item.date}</Text>
+      <MaterialIcons name="notifications" size={24} color="#FFD700" style={styles.icon} />
+      <View style={styles.textContainer}>
+        <Text style={styles.notificationTitle}>{item.title}</Text>
+        <Text style={styles.notificationDate}>{item.date}</Text>
+      </View>
     </View>
   );
 
@@ -44,16 +48,23 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-  notificationTitle: {
+  icon: {
+    marginRight: 16,
+  },
+  textContainer: {
     flex: 1,
-    fontSize: 16,
+  },
+  notificationTitle: {
+    fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: '#FFFFFF',
+    fontFamily: 'Roboto-Bold',
   },
   notificationDate: {
-    fontSize: 12,
-    color: '#b0b0b0',
-    marginLeft: 10,
+    fontSize: 14,
+    color: '#FFD700',
+    marginTop: 4,
+    fontFamily: 'Roboto-Regular',
   },
   flatListContent: {
     paddingBottom: 24,

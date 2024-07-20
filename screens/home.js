@@ -18,6 +18,7 @@ import Coachs from "./Coachs";
 import Following from "./following";
 import Profile from "./Profile";
 import Area from "./area";
+import Calendar from './calendar.js'; 
 import { Feather } from '@expo/vector-icons';
 const Drawer = createDrawerNavigator();
 const Tabs = createBottomTabNavigator();
@@ -163,6 +164,17 @@ const Home = () => {
             },
           }}
         />
+      <Drawer.Screen
+      name="Calendar"
+      component={Calendar}
+      options={{
+        drawerIcon: ({ size, color }) => {
+          return (
+            <Feather name="calendar" size={size} color={color} />
+          );
+        },
+      }}
+      />
         <Drawer.Screen
           name="Following"
           component={Following}
