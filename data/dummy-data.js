@@ -123,7 +123,7 @@ export const NOTIFICATIONS = [
 ];
 
 //programms 
-const programs = [
+ const programs = [
   { id: '1', name: 'Morning Yoga', time: '07:00 - 07:30', duratin: '30 min', description: 'A yoga program to start your day off right.', intensity: 'Low' },
   { id: '2', name: 'Running', time: '08:00 - 08:45', duration: '45 min', description: 'A running session to improve your endurance.', intensity: 'Medium' },
   { id: '3', name: 'Strength Training', time: '09:00 - 10:00', duration: '60 min', description: 'A strength training program to build your muscles.', intensity: 'High' },
@@ -136,17 +136,5 @@ const programs = [
   { id: '10', name: 'CrossFit', time: '17:00 - 17:55', duration: '55 min', description: 'A CrossFit workout for complete physical conditioning.', intensity: 'Very High' },
 ];
 
+export default programs; 
 
-export default programs;
-//Coaches schedule for CALENDAR 
-export const SCHEDULES = [
-  {
-    date: '2024-07-20',
-    slots: [
-      { time: '07:00', coach: 'John Doe', course: 'Morning Yoga' },
-      { time: '09:00', coach: 'Jane Smith', course: 'Running' },
-      { time: '11:00', coach: 'Alice Johnson', course: 'Strength Training' },
-    ],
-  },
- 
-];

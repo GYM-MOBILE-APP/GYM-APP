@@ -10,7 +10,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { FIREBASE_AUTH } from "./FirebaseConfig";
 import Home from "./screens/home";
 import Details from "./screens/Details";
-// import Calendar from "./screens/calendar.js"
+
 
 const Stack = createNativeStackNavigator();
 
