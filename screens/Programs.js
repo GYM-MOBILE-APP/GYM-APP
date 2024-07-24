@@ -1,7 +1,21 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
-import programs from '../data/dummy-data.js'; 
+import { View, Text, FlatList, StyleSheet } from 'react-native'; 
 import { MaterialIcons } from '@expo/vector-icons'; 
+
+
+// data 
+const programs = [
+    { id: '1', name: 'Morning Yoga', time: '07:00 - 07:30', duratin: '30 min', description: 'A yoga program to start your day off right.', intensity: 'Low' },
+    { id: '2', name: 'Running', time: '08:00 - 08:45', duration: '45 min', description: 'A running session to improve your endurance.', intensity: 'Medium' },
+    { id: '3', name: 'Strength Training', time: '09:00 - 10:00', duration: '60 min', description: 'A strength training program to build your muscles.', intensity: 'High' },
+    { id: '4', name: 'HIIT', time: '10:30 - 10:50', duration: '20 min', description: 'A high-intensity interval training to burn calories quickly.', intensity: 'Very High' },
+    { id: '5', name: 'Pilates', time: '11:00 - 11:40', duration: '40 min', description: 'A pilates program to improve your flexibility and posture.', intensity: 'Low' },
+    { id: '6', name: 'Cycling', time: '12:00 - 12:50', duration: '50 min', description: 'A cycling session to work your legs and cardio.', intensity: 'Medium' },
+    { id: '7', name: 'Boxing', time: '14:00 - 14:45', duration: '45 min', description: 'A boxing workout to improve your strength and endurance.', intensity: 'High' },
+    { id: '8', name: 'Cardio Dance', time: '15:00 - 15:35', duration: '35 min', description: 'A cardio dance program to burn calories while having fun.', intensity: 'Medium' },
+    { id: '9', name: 'Stretching', time: '16:00 - 16:25', duration: '25 min', description: 'A stretching program to improve your flexibility and prevent injuries.', intensity: 'Low' },
+    { id: '10', name: 'CrossFit', time: '17:00 - 17:55', duration: '55 min', description: 'A CrossFit workout for complete physical conditioning.', intensity: 'Very High' },
+  ];
 
 const getIconName = (programName) => { 
     switch(programName.toLowerCase()) {
