@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, FlatList, Image, StyleSheet } from 'react-native';
+import {View ,Text} from 'react-native'
+import {FlatList, Image, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
 // data 
