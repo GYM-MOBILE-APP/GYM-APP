@@ -11,6 +11,8 @@ import { FIREBASE_AUTH } from "./FirebaseConfig";
 import Home from "./screens/home";
 import Details from "./screens/Details";
 
+
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -26,6 +28,7 @@ export default function App() {
   return (
     <>
       <StatusBar style="light" />
+
       <NavigationContainer>
         <Stack.Navigator initialRouteName={user ? "home" : "accueil"}>
           {user ? (

@@ -167,19 +167,21 @@ export const NOTIFICATIONS = [
   }
 ];
 
+
 // des programmes de sport 
-const programs = [
-  { id: '1', name: 'Yoga', duration: '30 min', description: 'A yoga program to start your day off right.', intensity: 'Low' },
-  { id: '2', name: 'Running', duration: '45 min', description: 'A running session to improve your endurance.', intensity: 'Medium' },
-  { id: '3', name: 'Strength Training', duration: '60 min', description: 'A strength training program to build your muscles.', intensity: 'High' },
-  { id: '4', name: 'HIIT', duration: '20 min', description: 'A high-intensity interval training to burn calories quickly.', intensity: 'Very High' },
-  { id: '5', name: 'Pilates', duration: '40 min', description: 'A pilates program to improve your flexibility and posture.', intensity: 'Low' },
-  { id: '6', name: 'Cycling', duration: '50 min', description: 'A cycling session to work your legs and cardio.', intensity: 'Medium' },
-  { id: '7', name: 'Boxing', duration: '45 min', description: 'A boxing workout to improve your strength and endurance.', intensity: 'High' },
-  { id: '8', name: 'Cardio Dance', duration: '35 min', description: 'A cardio dance program to burn calories while having fun.', intensity: 'Medium' },
-  { id: '9', name: 'Stretching', duration: '25 min', description: 'A stretching program to improve your flexibility and prevent injuries.', intensity: 'Low' },
-  { id: '10', name: 'CrossFit', duration: '55 min', description: 'A CrossFit workout for complete physical conditioning.', intensity: 'Very High' },
-];
+// const programs = [
+//   { id: '1', name: 'Yoga', duration: '30 min', description: 'A yoga program to start your day off right.', intensity: 'Low' },
+//   { id: '2', name: 'Running', duration: '45 min', description: 'A running session to improve your endurance.', intensity: 'Medium' },
+//   { id: '3', name: 'Strength Training', duration: '60 min', description: 'A strength training program to build your muscles.', intensity: 'High' },
+//   { id: '4', name: 'HIIT', duration: '20 min', description: 'A high-intensity interval training to burn calories quickly.', intensity: 'Very High' },
+//   { id: '5', name: 'Pilates', duration: '40 min', description: 'A pilates program to improve your flexibility and posture.', intensity: 'Low' },
+//   { id: '6', name: 'Cycling', duration: '50 min', description: 'A cycling session to work your legs and cardio.', intensity: 'Medium' },
+//   { id: '7', name: 'Boxing', duration: '45 min', description: 'A boxing workout to improve your strength and endurance.', intensity: 'High' },
+//   { id: '8', name: 'Cardio Dance', duration: '35 min', description: 'A cardio dance program to burn calories while having fun.', intensity: 'Medium' },
+//   { id: '9', name: 'Stretching', duration: '25 min', description: 'A stretching program to improve your flexibility and prevent injuries.', intensity: 'Low' },
+//   { id: '10', name: 'CrossFit', duration: '55 min', description: 'A CrossFit workout for complete physical conditioning.', intensity: 'Very High' },
+// ];
+
 
 export default programs;
 
@@ -263,3 +265,4 @@ let FEED_ITEMS = [
 ];
 
 export { FEED_ITEMS };
+
