@@ -14,6 +14,7 @@ const Programs = () => {
             <Text style={styles.programDuration}>Duration: {item.duration}</Text>
             <Text style={styles.programDescription}>{item.description}</Text>
             <Text style={styles.programIntensity}>Intensity: {item.intensity}</Text>
+            <Text style={styles.programIntensity}>Intensity: {item.intensity}</Text>
         </View>
     );
 

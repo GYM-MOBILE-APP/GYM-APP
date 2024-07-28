@@ -167,6 +167,7 @@ export const NOTIFICATIONS = [
   }
 ];
 
+
 // des programmes de sport 
 const programs = [
   { id: '1', name: 'Morning Yoga', time: '07:00 - 07:30', duration: '30 min', description: 'A yoga program to start your day off right.', intensity: 'Low' },
@@ -262,3 +263,4 @@ let FEED_ITEMS = [
 ];
 
 export { FEED_ITEMS };
+
