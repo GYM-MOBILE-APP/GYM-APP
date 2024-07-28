@@ -4,7 +4,7 @@ import { Calendar } from 'react-native-calendars';
 
 const SCHEDULES = [
   {
-    date: '2024-07-25',
+    date: '2024-07-24',
     slots: [
       { time: '07:00', coach: 'Ahmed', course: 'Morning Yoga' },
     ],
