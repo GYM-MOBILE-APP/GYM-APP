@@ -4,7 +4,7 @@ const Area = () => {
     return (
       <View>
         <Text>
-            we will handle the area in this component
+              Area component
         </Text>
       </View>
     );
